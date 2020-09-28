@@ -1,0 +1,68 @@
+{
+  "name": "optsvg",
+  "version": "1.0.0",
+  "description": "Node Based SVG Optimise Tool",
+  "keywords": [
+    "optsvg",
+    "svg",
+    "optimize",
+    "minify",
+    "prettify"
+  ],
+  "homepage": "https://github.com/elitedev1314520/svgoptimizer",
+  "bugs": {
+    "url": "https://github.com/elitedev1314520/svgoptimizer/issues"
+  },
+  "author": {
+    "name": "elitedev",
+    "email": "ls1314520@yahoo.com",
+    "url": "https://github.com/elitedev1314520"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./lib/optsvg.js",
+  "bin": {
+    "optsvg": "./bin/optsvg"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "set NODE_ENV=test && mocha",
+    "lint": "jshint --show-non-errors .",
+    "jshint": "npm run lint"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "coa": "^2.0.2",
+    "css-select": "^2.0.0",
+    "css-select-base-adapter": "^0.1.1",
+    "css-tree": "1.0.0-alpha.37",
+    "csso": "^4.0.2",
+    "js-yaml": "^3.13.1",
+    "mkdirp": "~0.5.1",
+    "object.values": "^1.1.0",
+    "sax": "~1.2.4",
+    "stable": "^0.1.8",
+    "unquote": "~1.1.1",
+    "util.promisify": "~1.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.7",
+    "fs-extra": "~8.1.0",
+    "istanbul": "~0.4.5",
+    "jshint": "~2.10.2",
+    "mocha": "~6.2.2",
+    "mocha-istanbul": "~0.3.0",
+    "mock-stdin": "~0.3.1",
+    "should": "~13.2.3"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT"
+}
