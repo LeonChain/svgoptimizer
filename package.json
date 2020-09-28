@@ -1,5 +1,5 @@
 {
-  "name": "optsvg",
+  "name": "@limxiaoming/optsvg",
   "version": "1.0.0",
   "description": "Node Based SVG Optimise Tool",
   "keywords": [
