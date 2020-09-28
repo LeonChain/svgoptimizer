@@ -13,23 +13,19 @@
   "bugs": {
     "url": "https://github.com/elitedev1314520/svgoptimizer/issues"
   },
-  "author": {
-    "name": "elitedev",
-    "email": "ls1314520@yahoo.com",
-    "url": "https://github.com/elitedev1314520"
-  },
+  "author": "elitedev <ls1314520@yahoo.com> (https://github.com/elitedev1314520)",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/elitedev1314520/svgoptimizer.git"
+    "url": "git+https://github.com/elitedev1314520/svgoptimizer.git"
   },
   "main": "./lib/optsvg.js",
   "bin": {
-    "optsvg": "./bin/optsvg"
+    "optsvg": "bin/optsvg"
   },
   "directories": {
-    "bin": "./bin",
-    "lib": "./lib"
+    "doc": "docs",
+    "lib": "lib"
   },
   "scripts": {
     "test": "set NODE_ENV=test && mocha",
