@@ -1,36 +1,29 @@
 {
   "name": "@limxiaoming/optsvg",
   "version": "1.0.0",
-  "description": "Node Based SVG Optimise Tool",
-  "keywords": [
-    "optsvg",
-    "svg",
-    "optimize",
-    "minify",
-    "prettify"
-  ],
-  "homepage": "https://github.com/elitedev1314520/svgoptimizer",
-  "bugs": {
-    "url": "https://github.com/elitedev1314520/svgoptimizer/issues"
-  },
-  "author": "elitedev <ls1314520@yahoo.com> (https://github.com/elitedev1314520)",
-  "contributors": [],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elitedev1314520/svgoptimizer.git"
-  },
+  "description": "```sh $ [sudo] npm install -g optsvg ```",
   "main": "./lib/optsvg.js",
-  "bin": {
-    "optsvg": "bin/optsvg"
-  },
   "directories": {
     "doc": "docs",
     "lib": "lib"
   },
   "scripts": {
-    "test": "set NODE_ENV=test && mocha",
-    "lint": "jshint --show-non-errors .",
-    "jshint": "npm run lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elitedev1314520/svgoptimizer.git"
+  },
+  "keywords": [
+    "optsvg",
+    "svg",
+    "optimize",
+    "minify"
+  ],
+  "author": "elitedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elitedev1314520/svgoptimizer/issues"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -60,5 +53,5 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "license": "MIT"
+  "homepage": "https://github.com/elitedev1314520/svgoptimizer#readme"
 }
